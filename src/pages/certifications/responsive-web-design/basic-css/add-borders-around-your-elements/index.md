@@ -3,8 +3,58 @@ title: Add Borders Around Your Elements
 ---
 ## Add Borders Around Your Elements
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/responsive-web-design/basic-css/add-borders-around-your-elements/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+---
+title: Add Borders Around Your Elements
+---
+## Add Borders Around Your Elements
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+You may want to add borders to an element. You can add borders that go all the way around or have borders just on the top, right, left, or bottom of an element.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+When we add a border, we need to include some style information so the border shows up. 
+
+We can control the border's color:
+
+```css
+.greenBorder {
+border-color: green;
+}
+```
+
+The border's thickness:
+
+```css
+.thinBorder {
+border-width: 1px;
+}
+```
+
+Or the border's style:
+
+```css
+.myBorder {
+border-style: solid;
+}
+```
+
+And we can do all of these at once in any order like this:
+
+```css
+.myBorder {
+border-color: green;
+border-style: dotted;
+border-width: 5px;
+}
+```
+
+Don't forget your semicolons!
+
+We can also tell CSS all this information at once in a shorter way:
+
+```css
+.myBorder {
+border: 5px solid red;
+}
+```
+
+In this shorter version, the order should go width, style, then color.
+
